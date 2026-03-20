@@ -44,11 +44,15 @@
 				max-width: 90vw; /* wrapping needs a width constraint */
 				text-align: center;
 				text-shadow:
-					2px 0 0 #000, -2px 0 0 #000,           /* sağ, sol */
-					0 2px 0 #000, 0 -2px 0 #000,           /* alt, üst */
-					2px 2px 0 #000, -2px 2px 0 #000,       /* sağ-alt, sol-alt köşe */
-					2px -2px 0 #000, -2px -2px 0 #000,     /* sağ-üst, sol-üst köşe */
-					0px 8px 0 #000;                         /* drop shadow */
+					2px 8px 0 #000, -2px 8px 0 #000,       /* gölge: sağ, sol */
+					0 10px 0 #000, 0 6px 0 #000,           /* gölge: alt, üst */
+					2px 10px 0 #000, -2px 10px 0 #000,     /* gölge: köşeler */
+					2px 6px 0 #000, -2px 6px 0 #000,
+					2px 0 0 #000, -2px 0 0 #000,           /* ana: sağ, sol */
+					0 2px 0 #000, 0 -2px 0 #000,           /* ana: alt, üst */
+					2px 2px 0 #000, -2px 2px 0 #000,       /* ana: köşeler */
+					2px -2px 0 #000, -2px -2px 0 #000,
+					0px 8px 0 #000;                         /* gölge dolgu */
 			}
 			p {
 				font-family: 'Bahianita', cursive;
@@ -64,7 +68,7 @@
 
 			}
 			* {
-				cursor: url('/cursor.svg') 12 8, auto;
+				cursor: url('/cursor.svg') 1 1, auto;
 			}
 		</style>
 	</head>
