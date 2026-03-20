@@ -1,1 +1,0 @@
-refer to @birapizza-frontend/AGENT.md
